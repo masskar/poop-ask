@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLO</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+   
+    <div class="container mx-auto">
+       
+        <h1 class="text-2xl" id="init">Hey mein Lieblingspoop👋, Kann ich dich etwas fragen?</h1>
+        <button onclick="startQuestions()" id="que">Natürlich!</button>
+
+<div class="gif_container">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif" alt="Cute animated illustration">
+        </div>
+
+
+        <div id="questions" style="display: none;">
+            <h1 class="text-2xl mt-8">Question 1:</h1>
+            <p>Willst du mit mir morgen auf ein Jahrestags-Essen & Spazieren gehen?</p>
+            <button onclick="answerYes()">Sekloa!</button>
+            <button onclick="answerNo()" class="no">Neh!</button>
+        </div>
+
+        <div id="message" style="display: none;">
+           
+            <p id="messageText"></p>
+        </div>
+    </div>
+
+    <canvas id="confetti-canvas">
+   </canvas>
+
+
+    <footer class="text-center mt-8">
+        Made with ❤️ by Motsch    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js"></script>
+    <script src="script.js" ></script>
+</body>
+</html>
