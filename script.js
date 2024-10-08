@@ -16,7 +16,7 @@ function startQuestions() {
     document.getElementById("que").style.display = "none";
     document.getElementById("init").innerText = "YUUHUUUU POOPPPP 🎉🎉🎉";
     document.getElementById("message").style.display = "block";
-    document.getElementById("messageText").innerText = "Leider hast du keine andere Wahl außer mit mir auszugehen. Dennoch wünsche ich sowie uns beiden einen Happy Jahrestag! Freu mich darauf dich morgen zu nerven, hehe! ❤️";
+    document.getElementById("messageText").innerText = "Leider hast du keine andere Wahl außer mit mir auszugehen. Dennoch wünsche ich dir sowie uns beiden einen Happy Jahrestag! Freu mich darauf dich morgen zu nerven, hehe! ❤️";
     showConfetti()
 
 }
