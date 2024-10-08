@@ -2,38 +2,38 @@ body {
     font-family: 'Inter', Arial, sans-serif;
     text-align: center;
     padding-top: 100px;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 600px;
     margin: 80px auto;
     padding: 0 20px;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 24px;
     margin-bottom: 20px;
-  }
+}
 
-  .no{
+.no {
     background-color: red;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 
-  #message{
+#message {
     margin-top: 20px;
-  }
+}
 
-  #confetti-canvas{
+#confetti-canvas {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     z-index: -10;
-  }
-  
-  button {
+}
+
+button {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -45,26 +45,59 @@ body {
     margin-top: 20px;
     cursor: pointer;
     border-radius: 4px;
-  }
+}
 
-  footer{
+footer {
     margin-top: 200px;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+/* Responsive Images */
+.gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
     body {
-      padding-top: 50px;
+        padding-top: 50px;
     }
-  
+
     h1 {
-      font-size: 23px;
-      margin-bottom: 10px;
+        font-size: 23px;
+        margin-bottom: 10px;
     }
-  
+
     button {
-      padding: 8px 16px;
-      font-size: 14px;
-      margin-top: 10px;
+        padding: 8px 16px;
+        font-size: 14px;
+        margin-top: 10px;
     }
-  }
-  
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-top: 30px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 14px;
+        margin-top: 100px;
+    }
+}
